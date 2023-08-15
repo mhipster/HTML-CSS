@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <style> 
+        /* "*" คือการเลือกทุกองค์ประกอบ 
+            0  คือการลบ margin และ padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .logo {
+            height: 100px;
+            background-color: gray;
+        }
+        .header {
+            height: 200px;
+            margin: 15px 0;
+            background-color: pink;
+        }
+        .navigation {
+            display: flex; /* จัดองค์ประกอบให้เรียงเป็นแนวนอน */
+            gap: 15px;
+        }
+        .nav-item {
+            height: 50px;
+            background-color: darkolivegreen;
+            width: 25%;
+        }
+        .content {
+            display: flex; /* จัดองค์ประกอบให้เรียงเป็นแนวนอน */
+            margin: 15px 0;
+            gap: 15px;
+        }
+        .about {
+            height: 300px;
+            background-color: goldenrod;
+            width: 50%;
+        }
+        .quick-link {
+            height: 300px;
+            width: 50%;
+        }
+        .quick-link-box1 {
+            margin-top: 15px;
+            height: 185px;
+            background-color: yellowgreen;
+        }
+        .quick-link-box2 {
+            margin-top: 15px;
+            height: 185px;
+            background-color: yellowgreen;
+        }
+        .footer {
+            background-color: skyblue;
+            margin-top: 15px;
+            height: 100px;
+            width: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="logo">logo</div>
+
+    <div class="header">header</div>
+
+    <div class="navigation">
+        <div class="nav-item">nav1</div>
+        <div class="nav-item">nav2</div>
+        <div class="nav-item">nav3</div>
+        <div class="nav-item">nav4</div>
+    </div>
+
+    <div class="content">
+        <div class="about">about</div>
+        <div class="quick-link">
+            <div class="quick-link-box1">q1</div>
+            <div class="quick-link-box2">q2</div>
+        </div>
+    </div>
+    <div class="footer">footer</div>
+</body>
+</html>

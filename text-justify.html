@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .break-word {
+            word-wrap: break-word;
+        }
+        .no-wrap {
+            white-space: nowrap; /* nowrap ซึ่งหมายถึงไม่ให้เนื้อหาขึ้นบรรทัดใหม่ */ 
+        }
+        .justify-text {
+            text-align: justify;
+            text-indent: 20px;
+            text-decoration: underline; /* ใส่เส้นใต้ */
+            text-decoration-thickness: 5px; /*ใส่ความหนาให้เส้นใต้ */
+            line-height: 1.5rem; /* ความสูงของเส้นบรรทัด */
+        }
+        .box {
+            border: 1px solid;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+            background-color: azure;
+            width: 500px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <p class="break-word">This is a supercalifragilisticexpialidocious word that will be broken across lines if it's too long.</p>
+    </div>
+
+    <h3>nowrap คือ ไม่ให้เนื้อหาขึ้นบรรทัดใหม่</h3>
+    <div class="box">
+        <p class="no-wrap">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate doloribus perferendis itaque ab dolore atque, corrupti iusto assumenda dicta illum culpa neque libero exercitationem delectus commodi hic optio recusandae aut.
+        </p>
+    </div>
+
+    <div class="box">
+        <p class="justify-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur enim excepturi sunt delectus dolor architecto facere, officia explicabo eveniet est doloremque ad vero perferendis laboriosam quod labore, possimus sequi ratione.
+            Qui perspiciatis rem sint impedit architecto similique cupiditate corrupti tempore mollitia quaerat. Nam libero temporibus illo odio hic molestias cumque aliquam fugit obcaecati. Quia vel, autem necessitatibus impedit voluptatibus dolorum.
+            Facilis fugit hic quas veniam odio, eius eveniet nesciunt tempora repellendus saepe esse expedita reprehenderit non maxime nostrum eaque cum vel suscipit explicabo aliquid distinctio unde voluptate asperiores voluptatum! Expedita.
+            Dignissimos fugit ratione saepe illo ab dolor accusamus sequi? At architecto recusandae illo autem veniam molestiae consectetur ipsum mollitia. Repudiandae quod aliquid commodi accusamus, eligendi amet quae esse dolore debitis!
+            Hic soluta aperiam asperiores officia laudantium, doloribus odio reprehenderit tempora sit libero laborum nulla ea corrupti, aut perspiciatis reiciendis! Eum amet aspernatur modi delectus enim sit! Libero harum molestiae tempora.
+        </p>
+    </div>
+</body>
+</html>
