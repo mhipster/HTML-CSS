@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./frog.css">
+    <title>ใบบัวในสระน้ำ</title>
+</head>
+
+<body>
+    <h3>1.justify-content: flex-end; เรียง item ไปทางขวา</h3>
+    <div class="pool pool1">
+        <div class="d2">
+            <h4>ใบบัว</h4>
+        </div>
+    </div>
+
+    <h3>2.justify-content: center; item อยู่กลาง</h3>
+    <div class="pool pool2">
+        <div class="d2">
+            <h4>ใบบัว</h4>
+        </div>
+    </div>
+
+    <h3>3.justify-content: space-around; ระยะห่างด้านข้างของ item โดย Browser จะคำนวณให้</h3>
+    <div class="pool pool3">
+        <div class="d2">
+            <h4>ใบบัว</h4>
+        </div>
+        <div class="d2">
+            <h4>ใบบัว</h4>
+        </div>
+        <div class="d2">
+            <h4>ใบบัว</h4>
+        </div>
+    </div>
+
+    <h3>4.justify-content: space-between; ระยะห่างแบบชิดมุม</h3>
+    <div class="pool pool4">
+        <div class="d2">
+            <h4>ใบบัว</h4>
+        </div>
+        <div class="d2">
+            <h4>ใบบัว</h4>
+        </div>
+        <div class="d2">
+            <h4>ใบบัว</h4>
+        </div>
+    </div>
+
+    <h3>5.align-items: flex-end; เรียง item ไว้ด้านล่าง</h3>
+    <div class="pool pool5">
+        <div class="d2">
+            <h4>ใบบัว</h4>
+        </div>
+        <div class="d2">
+            <h4>ใบบัว</h4>
+        </div>
+        <div class="d2">
+            <h4>ใบบัว</h4>
+        </div>
+    </div>
+
+    <h3>6.justify-content: center; รวมกับ<br>
+        align-items: center;</h3>
+    <div class="pool pool6">
+        <div class="d2">
+            <h4>ใบบัว</h4>
+        </div>
+    </div>
+
+    <h3>7.justify-content: space-around; รวมกับ <br>
+        align-items: flex-end;</h3>
+    <div class="pool pool7">
+        <div class="d2">
+            <h4>ใบบัว1</h4>
+        </div>
+        <div class="d2">
+            <h4>ใบบัว2</h4>
+        </div>
+        <div class="d2">
+            <h4>ใบบัว3</h4>
+        </div>
+    </div>
+
+    <h3>8.flex-direction: row-reverse;</h3>
+    <div class="pool pool8">
+        <div class="d2">
+            <h4>ใบบัว1</h4>
+        </div>
+        <div class="d2">
+            <h4>ใบบัว2</h4>
+        </div>
+        <div class="d2">
+            <h4>ใบบัว3</h4>
+        </div>
+    </div>
+
+    <h3>9.flex-direction: column;</h3>
+    <div class="pool pool9">
+        <div class="d2">
+            <h4>ใบบัว</h4>
+        </div>
+        <div class="d2">
+            <h4>ใบบัว</h4>
+        </div>
+        <div class="d2">
+            <h4>ใบบัว</h4>
+        </div>
+    </div>
+
+    <h3>10.flex-direction: row-reverse; <br>
+        justify-content: flex-end;</h3>
+    <div class="pool pool10">
+        <div class="d2">
+            <h4>ใบบัว1</h4>
+        </div>
+        <div class="d2">
+            <h4>ใบบัว2</h4>
+        </div>
+        <div class="d2">
+            <h4>ใบบัว3</h4>
+        </div>
+    </div>
+
+    <h3>11.flex-direction: column; <br>
+        justify-content: flex-end;</h3>
+    <div class="pool pool11">
+        <div class="d2">
+            <h4>ใบบัว1</h4>
+        </div>
+        <div class="d2">
+            <h4>ใบบัว2</h4>
+        </div>
+        <div class="d2">
+            <h4>ใบบัว3</h4>
+        </div>
+    </div>
+
+    <h3>12. flex-direction: column-reverse; <br>
+        justify-content: space-between;</h3>
+    <div class="pool pool12">
+        <div class="d2">
+            <h4>ใบบัว1</h4>
+        </div>
+        <div class="d2">
+            <h4>ใบบัว2</h4>
+        </div>
+        <div class="d2">
+            <h4>ใบบัว3</h4>
+        </div>
+    </div>
+
+    <h3>13. flex-direction: column-reverse; <br>
+        justify-content: space-between;</h3>
+    <div class="pool pool13">
+        <div class="d2">
+            <h4>ใบบัว1</h4>
+        </div>
+        <div class="d2">
+            <h4>ใบบัว2</h4>
+        </div>
+        <div class="d2">
+            <h4>ใบบัว3</h4>
+        </div>
+    </div>
+
+    <h3>14. justify-content: space-around; <br>
+        align-items: flex-start; /* fix ใบบัวสีเขียว */ <br>
+        align-self: flex-end; /* ขยับเหลืองไปด้านล่าง */</h3>
+    <div class="pool pool14">
+        <div class="baibua"></div>
+        <div class="baibua"></div>
+        <div class="baibua2"></div>
+        <div class="baibua"></div>
+        <div class="baibua"></div>
+    </div>
+
+    <h3>15.
+        flex-wrap: wrap; /* ขยับ item ที่เกินลงไปด้านล่าง */ </h3>
+    <div class="pool pool15">
+        <div class="d2"></div>
+        <div class="d2"></div>
+        <div class="d2"></div>
+        <div class="d2"></div>
+        <div class="d2"></div>
+        <div class="d2"></div>
+        <div class="d2"></div>
+    </div>
+
+    <h3>16.
+        flex-direction: column; <br>
+        flex-wrap: wrap;</h3>
+    <div class="pool pool16">
+        <div class="d2"></div>
+        <div class="d2"></div>
+        <div class="d2"></div>
+        <div class="d2"></div>
+        <div class="d2"></div>
+        <div class="d2"></div>
+        <div class="d2"></div>
+        <div class="d2"></div>
+        <div class="d2"></div>
+        <div class="d2"></div>
+        <div class="d2"></div>
+        <div class="d2"></div>
+        <div class="d2"></div>
+        <div class="d2"></div>
+        <div class="d2"></div>
+        <div class="d2"></div>
+    </div>
+
+    <h3>17.flex-wrap: wrap; <br>
+        align-content: flex-start; บรรทัดจะถูกห่อรวมไว้ด้านบน</h3>
+    <div class="pool pool17">
+        <div class="d2"></div>
+        <div class="d2"></div>
+        <div class="d2"></div>
+        <div class="d2"></div>
+        <div class="d2"></div>
+        <div class="d2"></div>
+        <div class="d2"></div>
+        <div class="d2"></div>
+    </div>
+
+    <h3>18. flex-wrap: wrap; <br>
+        align-content: flex-end; บรรทัดจะถูกห่อรวมไว้ด้านล่าง</h3>
+    <div class="pool pool18">
+        <div class="d2"></div>
+        <div class="d2"></div>
+        <div class="d2"></div>
+        <div class="d2"></div>
+        <div class="d2"></div>
+        <div class="d2"></div>
+        <div class="d2"></div>
+        <div class="d2"></div>
+    </div>
+</body>
+
+</html>

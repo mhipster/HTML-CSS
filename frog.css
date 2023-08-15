@@ -1,0 +1,141 @@
+/* ส่วนของ Flexbox */
+.pool1 {
+    /* เรียง item ไปทางขวา */
+    justify-content: flex-end;
+}
+
+.pool2 {
+    /* เรียง item ให้อยู่กลาง */
+    justify-content: center;
+}
+
+.pool3 {
+    /* ระยะห่างด้านข้างของ item โดย Browser จะคำนวณให้ */
+    justify-content: space-around;
+}
+
+.pool4 {
+    /* สร้างระยะห่างแบบชิดมุม */
+    justify-content: space-between;
+}
+
+.pool5 {
+    /* เรียง item ไว้ด้านล่าง */
+    align-items: flex-end;
+}
+
+.pool6 {
+    /* ใช้รวมกัน */
+    justify-content: center;
+    align-items: center;
+}
+
+.pool7 {
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.pool8 {
+    /* พลิกกลับ */
+    flex-direction: row-reverse;
+}
+
+.pool9 {
+    flex-direction: column;
+}
+
+.pool10 {
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+.pool11 {
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.pool12 {
+    flex-direction: column-reverse;
+    justify-content: space-between;
+}
+
+.pool13 {
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.pool14 {
+    justify-content: space-around;
+    align-items: flex-start;
+    /* fix ใบบัวสีเขียว */
+}
+
+.baibua2 {
+    align-self: flex-end;
+    /* ขยับเหลืองไปด้านล่าง */
+}
+
+.pool15 {
+    /* ขยับ item ที่เกินลงไปด้านล่าง */
+    flex-wrap: wrap;
+}
+
+.pool16 {
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.pool17 {
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.pool18 {
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+
+/* ใบบัว */
+.d2 {
+    height: 100px;
+    width: 100px;
+    border: 5px solid;
+    border-radius: 100px;
+    background-color: yellowgreen;
+}
+
+h4 {
+    text-align: center;
+}
+
+h3 {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+/* สระน้ำ */
+.pool {
+    margin: auto;
+    display: flex;
+    display: flex;
+    background-color: skyblue;
+    width: 500px;
+    height: 500px;
+}
+
+.baibua {
+    height: 85px;
+    width: 85px;
+    border: 5px solid;
+    border-radius: 100px;
+    background-color: yellowgreen;
+}
+
+.baibua2 {
+    height: 85px;
+    width: 85px;
+    border: 5px solid;
+    border-radius: 100px;
+    background-color: yellow;
+}
