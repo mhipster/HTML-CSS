@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border</title>
+    <style>
+        .box {
+            border: 1px solid;
+            width: 300px;
+            box-sizing: border-box;
+            padding: 20px; /* ระยะห่างเข้ามาด้านใน บนล่างซ้ายขวา */
+            padding: 20px 50px 40px 60px; /* ตามเข็ม */
+            /* margin: 10px; ทำให้กล่องห่างกัน */
+            /* margin: auto;
+            margin: 10% 30%; */
+            margin: 20px;
+        }
+        p {
+            margin: 0; /* ลบระยะห่างของ margin */
+        }
+        .box-1 {
+            /*  border: 5px dashed red !important; บังคับ */
+            border: 5px dashed blue;
+            border-top-color: green;
+            border-bottom-color: red;
+            border-left: 10px groove pink;
+            border-right: 10px dotted skyblue;
+            outline: 5px solid purple;
+            /* border-radius: 20px; */
+            border-radius: 20px 100px 200px 300px;
+            border-radius: 50px / 100px;
+            border-bottom-right-radius: 20px;
+            box-shadow: 5px 5px 30px yellowgreen;
+        }
+    </style>
+</head>
+<body>
+    <div class="box box-1">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat pariatur laborum doloribus ipsum! Odio saepe modi placeat quasi adipisci iure nulla, atque vero maxime incidunt, assumenda quae numquam? Voluptatem, qui!</p>
+    </div>
+    <div class="box">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda nulla inventore similique laborum soluta doloribus sit! Iusto qui dolorem, aliquid, autem fugit, sapiente quisquam et vero facere possimus alias voluptates!</p>
+    </div>
+    <div class="box">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quaerat, voluptate dolorum consequatur doloribus aperiam et eveniet. Sed, consequatur rem, ex fugit reprehenderit porro quibusdam suscipit accusamus inventore, numquam eligendi!</p>
+    </div>
+</body>
+</html>

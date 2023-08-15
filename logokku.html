@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .box{
+            border-left: 20px groove tomato;
+            border-top: 20px dotted red;
+            border-bottom: 20px double blue;
+            border-right: 20px dashed plum;
+        }
+        .box-1{
+            border-image: url(./image.png) 30 30 round;
+            -webkit-border-image: url(./image.png) 30 30 round;
+            margin-inline: 2rem;
+        }
+
+        .box-1 img{
+            display: block;
+            height: 300px;
+            margin: auto;
+            position: relative;
+            z-index: -1;
+        }
+
+        ul li{
+            white-space: pre-line;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="box-1">
+            <img src="./kkulogo.jpg" alt="logo">
+        </div>
+        <ul>
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, quam!
+                    Lorem ipsum dolor sit amet.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, quod!
+                    Lorem ipsum dolor sit amet.
+                </li>
+            </ul>
+    </div>
+</body>
+</html>

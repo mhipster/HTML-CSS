@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    height: 100px;
+    background-color: lightgrey;
+}
+.header{
+    height: 200px;
+    margin: 15px 0;
+    background-color: lightgrey;
+}
+.navigation{
+    display: flex;
+    gap: 15px;
+}
+.nav-item{
+    height: 50px;
+    background-color: lightgrey;
+    width: 25%;
+}
+.content{
+    display: flex;
+    margin: 15px 0;
+    gap: 15px;
+}
+.about{
+    height: 300px;
+    background-color: lightgrey;
+    width: 50%;
+}
+.quick-link{
+    height: 300px;
+    width: 50%;
+}
+.quick-link-box-one{
+    height: 100px;
+    background-color: lightgrey;
+}
+.quick-link-box-two{
+    margin-top: 15px;
+    height: 185px;
+    background-color: lightgrey;
+}
+.footer{
+    background-color: lightgrey;
+    margin-top: 15px;
+    height: 100px;
+}
