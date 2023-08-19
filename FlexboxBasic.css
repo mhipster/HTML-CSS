@@ -25,7 +25,7 @@
 }
 
 .pool6 {
-    /* ใช้รวมกัน */
+    /* ใช้รวมกัน ให้ไปอยู่ตรงกลาง */
     justify-content: center;
     align-items: center;
 }
@@ -36,44 +36,49 @@
 }
 
 .pool8 {
-    /* พลิกกลับ */
+    /* พลิกกลับ โดยเรียงจากขวามาซ้ายด้วย*/
     flex-direction: row-reverse;
 }
 
 .pool9 {
+    /* เรียงจากแนวนอนเป็นแนวตั้ง */
     flex-direction: column;
 }
 
 .pool10 {
+    /* พริกกลับ */
     flex-direction: row-reverse;
+    /* move มาไว้ด้านหน้า */
     justify-content: flex-end;
 }
 
 .pool11 {
+    /* เรียงเป็น column */
     flex-direction: column;
+    /* move มาไว้ล่างสุด */
     justify-content: flex-end;
 }
 
 .pool12 {
-    flex-direction: column-reverse;
+    /* เรียงเป็น column */
+    flex-direction: column;
+    /* ทำให้ดอกบัวห่างกันแบบชิดขอบ */
     justify-content: space-between;
 }
 
 .pool13 {
-    flex-direction: row-reverse;
-    justify-content: center;
-    align-items: flex-end;
+    /* เรียงเป็น column แบบกลับด้าน */
+    flex-direction: column-reverse; 
+    justify-content: space-between;
 }
 
 .pool14 {
     justify-content: space-around;
-    align-items: flex-start;
-    /* fix ใบบัวสีเขียว */
+    align-items: flex-start; /* fix ใบบัวสีเขียว */
 }
 
 .baibua2 {
-    align-self: flex-end;
-    /* ขยับเหลืองไปด้านล่าง */
+   align-self: flex-end; /* ขยับใบเหลืองไปด้านล่าง */
 }
 
 .pool15 {
@@ -82,12 +87,16 @@
 }
 
 .pool16 {
+    /* ตั้งเป็น column */
     flex-direction: column;
+    /* นำส่วนที่เกินไปจัดใหม่ */
     flex-wrap: wrap;
 }
 
 .pool17 {
+    /* นำส่วนที่เกินไปจัดใหม่ */
     flex-wrap: wrap;
+    /* ห่อรวมกันไว้ข้างบน */
     align-content: flex-start;
 }
 
